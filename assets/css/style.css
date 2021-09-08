@@ -69,6 +69,10 @@ header css
     transition: .5s;
 }
 
+.header__profile__area a {
+    display: inline-block;
+    margin-left: 5px;
+}
 
 /* ---------------------------------
 hero css
