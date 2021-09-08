@@ -1,0 +1,599 @@
+@media (min-width: 1366px) {
+    .container_wrap {
+        max-width: 1200px;
+        margin: auto;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .hero__left h2 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .feature__inner__wrap {
+        width: 85%;
+    }
+
+    .lookBook__content h3 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .lookBook__content {
+        width: 60%;
+    }
+
+    .lookBook__btn a {
+        padding: 10px 5%;
+        font-size: 28px;
+        line-height: 40px;
+        margin-top: 25%;
+    }
+
+    .design__slider .slick-list {
+        margin: 0 -10px;
+    }
+
+    .design__slider .slick-slide {
+        margin: 0px 10px;
+    }
+
+    .product__single__item {
+        width: 200px;
+        height: 250px;
+    }
+
+    .product__single__item.product_first__item {
+        width: 55.5px;
+    }
+
+    .product__single__item.product__last__item {
+        width: 180px;
+        height: 180px;
+    }
+
+    .testimonial_single_slider:after {
+        width: 100%;
+        height: 75%;
+    }
+
+    .t_s_slider_right p {
+        font-size: 16px;
+    }
+
+    .we__do__top__content {
+        padding: 0% 12%;
+        margin-bottom: 5%;
+    }
+
+    .we__do__top__content p {
+        font-size: 20px;
+    }
+
+    .we__do__top__single__item h6 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .we__do__bottom__title h4 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .we__do_main__wrap .btn.btn-link.btn-block.text-left {
+        font-size: 20px;
+    }
+
+    .our__team__content h4 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .our__team__content p {
+        font-size: 20px;
+    }
+
+    .subscribe__area input {
+        font-size: 14px;
+        width: 65%;
+    }
+
+    .subscribe__area button {
+        font-size: 14px;
+        width: 33%;
+    }
+
+    .call__to__action_left p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .call__to__action__main__wrap {
+        padding: 50px 0;
+    }
+
+    .footer__main__area {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header__main__wrap {
+        padding: 10px 0;
+    }
+
+    .header__main__wrap a.nav-link {
+        padding: 12px 10px;
+    }
+
+    .header__profile__area {
+        padding: 15px 0;
+    }
+
+    .hero__left {
+        text-align: center;
+        padding: 10% 0;
+    }
+
+    .hero__left h2 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .hero_left_button {
+        margin-top: 7%;
+    }
+
+    img.hero_right_angle_shap {
+        display: none;
+    }
+
+    .feature__inner__wrap {
+        width: 95%;
+    }
+
+    .feature_item img {
+        width: 70px;
+    }
+
+    .feature_item p {
+        font-size: 16px;
+    }
+
+    .lookBook__content {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 5%;
+        text-align: center;
+    }
+
+    .lookBook__inner_wrap {
+        min-height: 450px;
+    }
+
+    .lookBook__btn a {
+        padding: 10px 5%;
+        font-size: 24px;
+        line-height: 40px;
+        margin-top: 10%;
+    }
+
+    .lookBook__card__btn a {
+        font-size: 16px;
+    }
+
+    .design__title h4 {
+        font-size: 45px;
+        line-height: 68px;
+    }
+
+    .design__slider .slick-list {
+        margin: 0 -10px;
+    }
+
+    .design__slider .slick-slide {
+        margin: 0 10px;
+    }
+
+    .product__single__item.product__last__item {
+        width: 160px;
+        height: 160px;
+    }
+
+    .product__single__item {
+        width: 200px;
+        height: 230px;
+    }
+
+    .product__single__item.product_first__item {
+        width: 55.5px;
+    }
+
+    .t_s_slider_left {
+        width: 40%;
+    }
+
+    .t_s_slider_right p {
+        font-size: 15px;
+    }
+
+    .testimonial_single_slider:after {
+        height: 70%;
+    }
+
+    .we__do__top__content {
+        padding: 0% 5%;
+    }
+
+    .we__do__top__content h3 {
+        font-size: 50px;
+    }
+
+    .we__do__top__content p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .we__do__top__items__wrap {
+        padding: 5% 5%;
+    }
+
+    .we__do__top__single__item img {
+        width: 70px;
+    }
+
+    .we__do__top__single__item h6 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .we__do__bottom__left {
+        margin-bottom: 30px;
+    }
+
+    .we__do__bottom__title h4 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+
+    .we__do_main__wrap .btn.btn-link.btn-block.text-left {
+        font-size: 18px;
+    }
+
+    .we__do_main__wrap .card-body p {
+        font-size: 16px;
+    }
+
+    .our__team__content h4 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+
+    .our__team__content p {
+        font-size: 16px;
+    }
+
+    .our__team__main__wrap {
+        padding: 50px 0;
+    }
+
+    .call__to__action__main__wrap {
+        padding: 50px 0;
+    }
+
+    .call__to__action_left {
+        margin-bottom: 25px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .header__main__wrap {
+        padding: 10px 0;
+    }
+
+    .header__main__wrap a.nav-link {
+        padding: 12px 10px;
+    }
+
+    .header__profile__area {
+        padding: 15px 0;
+    }
+
+    .hero__left {
+        text-align: center;
+        padding: 10% 0;
+    }
+
+    .hero__left h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .hero_left_button {
+        margin-top: 7%;
+    }
+
+    img.hero_right_angle_shap {
+        display: none;
+    }
+
+    .hero__right img {
+        width: 100%;
+    }
+
+    .feature__inner__wrap {
+        width: 95%;
+    }
+
+    .feature_item {
+        margin-bottom: 30px;
+        box-shadow: 0px 0px 5px 0px #ddd;
+        padding: 16px;
+        border-radius: 5px;
+    }
+
+    .feature_item img {
+        width: 70px;
+    }
+
+    .feature_item p {
+        font-size: 16px;
+    }
+
+    .card__single__item {
+        margin-bottom: 30px;
+    }
+
+    .lookBook__content {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 5%;
+        text-align: center;
+    }
+
+    .lookBook__inner_wrap {
+        min-height: 450px;
+    }
+
+    .lookBook__btn a {
+        padding: 10px 5%;
+        font-size: 24px;
+        line-height: 40px;
+        margin-top: 10%;
+    }
+
+    .lookBook__card__btn a {
+        font-size: 16px;
+    }
+
+    .design__title h4 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+
+    .design__slider .slick-list {
+        margin: 0 -10px;
+    }
+
+    .design__slider .slick-slide {
+        margin: 0 10px;
+    }
+
+    .product__single__item.product__last__item {
+        width: 160px;
+        height: 160px;
+    }
+
+    .product__slider__items {
+
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .product__single__item {
+        width: 200px;
+        height: 230px;
+        margin-bottom: 25px;
+    }
+
+    .product__single__item.product_first__item {
+        width: 55.5px;
+    }
+
+    .testimonial_single_slider {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .t_s_slider_left {
+        width: 40%;
+        margin: auto;
+    }
+
+    .t_s_slider_right {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .t_s_slider_right p {
+        font-size: 15px;
+    }
+
+    .testimonial_single_slider:after {
+        height: 100%;
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+
+    .t_s_slider_right img {
+        width: 40px !important;
+        margin: 20px auto;
+    }
+
+    .t_s_right_profile {
+        padding-bottom: 5%;
+    }
+
+    .we__do__top__single__item {
+        margin-bottom: 30px;
+    }
+
+    .our__team__right {
+        padding-right: 5%;
+        padding-bottom: 18%;
+        position: relative;
+    }
+
+    .our__team__content {
+        text-align: center;
+    }
+
+    .we__do__top__content {
+        padding: 0% 0%;
+    }
+
+    .we__do__top__content h3 {
+        font-size: 40px;
+    }
+
+    .we__do__top__content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .we__do__top__items__wrap {
+        padding: 5% 5%;
+    }
+
+    .we__do__top__single__item img {
+        width: 70px;
+    }
+
+    .we__do__top__single__item h6 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .we__do__bottom__left {
+        margin-bottom: 30px;
+    }
+
+    .we__do__bottom__title h4 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+
+    .we__do_main__wrap .btn.btn-link.btn-block.text-left {
+        font-size: 18px;
+    }
+
+    .we__do_main__wrap .card-body p {
+        font-size: 16px;
+    }
+
+    .our__team__content h4 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+
+    .our__team__content p {
+        font-size: 16px;
+    }
+
+    .our__team__main__wrap {
+        padding: 50px 0;
+    }
+
+    .call__to__action__main__wrap {
+        padding: 50px 0;
+    }
+
+    .call__to__action_left {
+        margin-bottom: 25px;
+    }
+
+    .our__team__btn {
+        position: relative;
+        bottom: -30px;
+    }
+
+    .our__team__right {
+        padding-right: 5%;
+        padding-bottom: 15%;
+        position: relative;
+        text-align: center;
+    }
+
+    .call__to__action__inner__wrap {
+        text-align: center;
+    }
+
+    .lookBook__content h3 {
+        font-size: 50px;
+        color: #fff;
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .hero__left h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .hero__left p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .lookBook__inner_wrap {
+        min-height: 300px;
+    }
+
+    .lookBook__content h3 {
+        font-size: 40px;
+        color: #fff;
+        line-height: 58px;
+    }
+
+    .lookBook__btn a {
+        padding: 7px 5%;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 10%;
+    }
+
+    .design__main__wrap {
+        overflow: hidden;
+        padding: 40px 0;
+    }
+
+    .hero_left_button a {
+        display: inline-block;
+        padding: 7px 10px;
+        background: #CB7562;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .we__do__bottom__title h4 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .we__do__bottom__title {
+        text-align: center;
+    }
+
+    .subscribe__area input {
+
+        width: 65%;
+    }
+}
