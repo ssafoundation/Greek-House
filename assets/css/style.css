@@ -148,6 +148,10 @@ img.hero_right_angle_shap {
     background: #859CBA;
 }
 
+img.hero_right_main_image {
+    display: none;
+}
+
 /* ---------------------------------
 hero css end
 ------------------- */
