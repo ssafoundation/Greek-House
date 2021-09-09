@@ -3,7 +3,7 @@
   $(document).ready(function () {
     $(".partner__slider").slick({
       infinite: true,
-      slidesToShow: 7,
+      slidesToShow: 6,
       slidesToScroll: 1,
       settings: "unslick",
 
@@ -34,7 +34,7 @@
     });
     $(".design__slider").slick({
       infinite: true,
-      slidesToShow: 5,
+      slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
       variableWidth: true,

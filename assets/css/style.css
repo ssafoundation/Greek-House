@@ -395,25 +395,52 @@ product css
 .product__slider__items {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 2vw;
+    flex-wrap: wrap;
 }
 
+/* .product__slider__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    gap: 3vw;
+    grid-template-columns: 4.6% 21% 21% 21% 300px;
+    align-items: center;
+} */
 
-
-.product__single__item.product_first__item {
-    width: 65px;
-}
 
 .product__single__item {
     text-align: center;
-    width: 280px;
-    height: 324px;
     background: #FBF5F1;
     padding: 15px;
+    height: 340px;
+}
+
+.product__single__item:nth-child(1) {
+    width: 5%;
+}
+
+.product__single__item:nth-child(2) {
+    width: 23.3%;
+}
+
+.product__single__item:nth-child(3) {
+    width: 23.3%;
+}
+
+.product__single__item:nth-child(4) {
+    width: 23.3%;
 }
 
 .product__single__item img {
     width: 100%;
+    height: 86%;
+}
+
+.product__single__item p {
+    padding-top: 7px;
+    font-family: 'Inter';
+    font-weight: 500;
+    height: 40px;
 }
 
 .product__single__item.product__last__item {
@@ -425,6 +452,11 @@ product css
     background: #ddd;
     margin-right: 40px;
     border-radius: 5px;
+}
+
+.product__see__more__btn a {
+    color: #271827;
+    font-weight: 700;
 }
 
 /* ---------------------------------
@@ -481,7 +513,7 @@ testimonial css
 }
 
 .t_s_slider_right p {
-    font-weight: 700;
+    font-weight: 400;
     text-transform: capitalize;
     font-size: 24px;
     color: #271827;
@@ -575,11 +607,12 @@ We Do css
     border-radius: 0;
     margin-bottom: -1px;
     padding: 10px 0;
+    background-color: unset !important;
 }
 
 .we__do_main__wrap .btn.btn-link.btn-block.text-left {
     padding: 10px 0;
-    color: #000;
+    color: #271827;
     text-decoration: none;
     font-family: 'Lato';
     font-size: 24px;
@@ -590,6 +623,7 @@ We Do css
     position: absolute;
     background-image: url(../img/iconDownArrow.svg);
     right: 15px;
+    top: 30px;
     color: #000;
     font-size: 24px;
     width: 15px;
@@ -605,6 +639,7 @@ We Do css
     position: absolute;
     background-image: url(../img/iconUpperArrow.svg);
     right: 15px;
+    top: 30px;
     color: #000;
     font-size: 24px;
     width: 15px;
@@ -629,6 +664,29 @@ We Do css
 
 .we__do__bottom__right img {
     width: 100%;
+}
+
+.we__do_main__wrap .btn.btn-link.btn-block.text-left:before {
+    content: "";
+    width: 60%;
+    height: 1px;
+    background: #E5E7EB;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+.we__do_main__wrap .card-header {
+    border-bottom: 0 !important;
+}
+
+.we__do_main__wrap .card-body {
+    padding: 0px 0px 20px 0px;
+}
+
+.we__do_main__wrap .card-body p {
+    color: #6B7280;
+    padding-right: 6%;
 }
 
 /* ---------------------------------
@@ -727,6 +785,7 @@ call to action css
     font-weight: 500;
     line-height: 20px;
     margin-top: 8px;
+    color: #6B7280;
 }
 
 /* ---------------------------------
@@ -739,6 +798,10 @@ footer css
 .footer__main__area {
     margin-top: 100px;
     text-align: center;
+}
+
+.footer__inner__wrap {
+    padding: 15px 0;
 }
 
 .footer__top__area {
@@ -769,6 +832,13 @@ footer css
     color: #9CA3AF;
     font-size: 12px;
     padding-bottom: 15px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.footer__social__area a {
+    display: inline-block;
+    margin: 0px 10px;
 }
 
 /* ---------------------------------
