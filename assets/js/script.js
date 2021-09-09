@@ -39,6 +39,13 @@
       autoplay: true,
       variableWidth: true,
     });
+    // $(".product__slider__items").slick({
+    //   infinite: true,
+    //   slidesToShow: 5,
+    //   slidesToScroll: 1,
+    //   autoplay: true,
+    //   variableWidth: true,
+    // });
     $(".testimonial_wrap").owlCarousel({
       loop: true,
       items: 1,
@@ -46,6 +53,14 @@
       autoplay: true,
       autoplayTimeout: 5000,
       dots: true,
+    });
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      if (scroll >= 50) {
+        $(".header__main__wrap").addClass("stickyHeader");
+      } else {
+        $(".header__main__wrap").removeClass("stickyHeader");
+      }
     });
   });
 })(jQuery);
