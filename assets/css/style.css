@@ -92,7 +92,6 @@ header css
 
 .header__main__wrap a.nav-link:hover {
     color: #ca7361 !important;
-    border-bottom: 2px solid #E8AFAE;
     transition: .5s;
 }
 
