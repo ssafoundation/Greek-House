@@ -95,6 +95,10 @@ header css
     transition: .5s;
 }
 
+.navbar-collapse {
+    text-align: center;
+}
+
 .header__profile__area a {
     display: inline-block;
     margin-left: 5px;
