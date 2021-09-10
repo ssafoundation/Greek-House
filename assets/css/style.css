@@ -46,11 +46,11 @@ header css
     z-index: 99999;
     position: fixed;
     width: 100%;
-    background: #fff;
+    background-color: #271827 !important;
     top: -10px;
     transition: .3s;
     height: 80px;
-    overflow: hidden;
+
     padding-top: 7px;
 }
 
@@ -58,21 +58,40 @@ header css
     top: 0px;
     transition: .3s;
     height: 85px;
-    padding-top: 10px;
+    padding-top: 5px;
+}
+
+.header__main__wrap .bg-dark {
+    background-color: #271827 !important;
+    padding: 0 15px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(255 255 255);
+    border: none;
+}
+
+.header__main__wrap .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff80;
+
 }
 
 .navbar {
     padding: 0;
 }
 
+.navbar-dark .navbar-brand img {
+    width: 180px;
+}
+
 .header__main__wrap a.nav-link {
-    padding: 25px 10px;
+    padding: 22px 10px;
     position: relative;
     border-bottom: 2px solid transparent;
 }
 
 .header__main__wrap a.nav-link:hover {
-    color: #000;
+    color: #ca7361 !important;
     border-bottom: 2px solid #E8AFAE;
     transition: .5s;
 }
@@ -88,7 +107,7 @@ hero css
 
 .hero__main__wrap {
     position: relative;
-    height: 75vh;
+    height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -106,22 +125,23 @@ hero css
     background-size: cover;
 }
 
-.hero__inner_wrap {
-    height: 75vh;
+/* .hero__inner_wrap {
+    height: 100vh;
     display: flex;
-}
+} */
 
 .hero__right {
     position: relative;
+    height: 100vh;
 }
 
 img.hero_right_angle_shap {
     position: absolute;
-    left: -30.31%;
-    right: 1.3%;
+    left: -25%;
     top: 0%;
     bottom: 0%;
     z-index: 9;
+    height: 100%;
 }
 
 .hero__left {
@@ -163,6 +183,7 @@ img.hero_right_main_image {
 /* ---------------------------------
 hero css end
 ------------------- */
+
 /* ---------------------------------
 feature css 
 ------------------- */
@@ -190,6 +211,8 @@ card css
 
 .card__main__wrap {
     padding: 80px 0;
+    width: 96%;
+    margin: 0 auto;
 }
 
 .card_image img {
@@ -237,6 +260,7 @@ card css
 /* ---------------------------------
 card css 
 ------------------- */
+
 /* ---------------------------------
 partner css 
 ------------------- */
@@ -268,6 +292,7 @@ partner css
 /* ---------------------------------
 partner css 
 ------------------- */
+
 /* ---------------------------------
 lookBook css 
 ------------------- */
@@ -280,7 +305,7 @@ lookBook css
     background-position: center;
     background-size: cover;
     width: 100%;
-    min-height: 570px;
+    height: 70vh;
 }
 
 .lookBook__content {
@@ -317,9 +342,30 @@ lookBook css
 /* ---------------------------------
 lookBook css 
 ------------------- */
+
 /* ---------------------------------
 lookBook__card css 
 ------------------- */
+.mobile_view_lookBook_wrap {
+    display: none;
+}
+
+.lookBook__card__item.slick-slide.slick-current.slick-active {
+    position: relative;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.lookBook__card__item.slick-slide {
+    transform: scale(.9);
+    transition: .5s;
+}
+
+.lookBook__card__main__wrap {
+    width: 96%;
+    margin: auto;
+}
+
 .lookBook__card__item {
     background: #FBF5F1;
     text-align: center;
@@ -356,6 +402,7 @@ lookBook__card css
 /* ---------------------------------
 lookBook__card css 
 ------------------- */
+
 /* ---------------------------------
 design css 
 ------------------- */
@@ -386,10 +433,7 @@ design css
     margin: 0 -30px;
 }
 
-/* .design__slider__item.slick-slide img {
-    width: 300px;
-    height: 300px;
-} */
+
 
 /* ---------------------------------
 design css 
@@ -403,21 +447,6 @@ product css
     padding: 100px 0;
 }
 
-
-.product__slider__items {
-    display: flex;
-    align-items: center;
-    gap: 2vw;
-    flex-wrap: wrap;
-}
-
-/* .product__slider__items {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
-    gap: 3vw;
-    grid-template-columns: 4.6% 21% 21% 21% 300px;
-    align-items: center;
-} */
 .product__main__wrap .slick-slide {
     margin: 0 20px;
 }
@@ -430,32 +459,19 @@ product css
     text-align: center;
     background: #FBF5F1;
     padding: 15px;
-    height: 340px;
-}
-
-.product__single__item:nth-child(1) {
-    width: 5%;
-}
-
-.product__single__item:nth-child(2) {
-    width: 23.3%;
-}
-
-.product__single__item:nth-child(3) {
-    width: 23.3%;
-}
-
-.product__single__item:nth-child(4) {
-    width: 23.3%;
+    width: 280px !important;
+    height: 324px;
+    border-radius: 7px;
 }
 
 .product__single__item img {
-    width: 100%;
-    height: 86%;
+    width: 241px;
+    height: 252px;
+    margin: auto;
 }
 
 .product__single__item p {
-    padding-top: 7px;
+    padding-top: 17px;
     font-family: 'Inter';
     font-weight: 500;
     height: 40px;
@@ -464,23 +480,25 @@ product css
 .product__single__item.product__last__item {
     display: flex;
     align-items: center;
-    width: 240px;
+    width: 240px !important;
     height: 240px;
     justify-content: center;
     background: #ddd;
     margin-right: 40px;
     border-radius: 5px;
-    margin: 55px 0;
+    margin-top: 42px;
 }
 
 .product__see__more__btn a {
     color: #271827;
     font-weight: 700;
+    font-size: 24px;
 }
 
 /* ---------------------------------
 product css 
 ------------------- */
+
 /* ---------------------------------
 testimonial css 
 ------------------- */
@@ -533,7 +551,6 @@ testimonial css
 
 .t_s_slider_right p {
     font-weight: 400;
-    text-transform: capitalize;
     font-size: 24px;
     color: #271827;
 }
@@ -549,6 +566,7 @@ testimonial css
 /* ---------------------------------
 testimonial css 
 ------------------- */
+
 /* ---------------------------------
 We Do css 
 ------------------- */
@@ -711,6 +729,7 @@ We Do css
 /* ---------------------------------
 We Do css 
 ------------------- */
+
 /* ---------------------------------
 our team css 
 ------------------- */
@@ -759,6 +778,8 @@ our team css
 /* ---------------------------------
 our team css 
 ------------------- */
+
+
 /* ---------------------------------
 call to action css 
 ------------------- */
@@ -770,6 +791,7 @@ call to action css
 .call__to__action_left h4 {
     font-weight: 800;
     font-family: 'Inter', sans-serif;
+    font-size: 36px;
 }
 
 .call__to__action_left p {
@@ -807,9 +829,20 @@ call to action css
     color: #6B7280;
 }
 
+.subscribe__area a {
+    font-size: 14px !important;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 8px;
+    color: #6B7280;
+    text-decoration: underline;
+}
+
 /* ---------------------------------
 call to action css 
 ------------------- */
+
 
 /* ---------------------------------
 footer css 
