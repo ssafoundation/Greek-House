@@ -5,8 +5,7 @@
       infinite: true,
       slidesToShow: 6,
       slidesToScroll: 1,
-      // settings: "unslick",
-      // autoplay: true,
+      autoplay: true,
       autoplaySpeed: 3000,
       speed: 600,
       autoplay: true,
@@ -44,6 +43,31 @@
       autoplaySpeed: 3000,
       speed: 600,
       variableWidth: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+          },
+        },
+      ],
     });
 
     $(".product__slider__items").slick({
@@ -93,7 +117,7 @@
       infinite: true,
       slidesToShow: 5,
       slidesToScroll: 1,
-      // autoplay: true,
+      autoplay: true,
       centerMode: true,
       variableWidth: true,
       responsive: [

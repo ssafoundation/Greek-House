@@ -654,6 +654,30 @@
     .partner__main__wrap .slick-slide img {
         width: 80px !important;
     }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .design__slider__item.slick-slide.slick-current.slick-active.slick-center {
+        transform: scale(1);
+        transition: .5s;
+    }
+
+    .design__slider__item.slick-slide.slick-active {
+        transform: scale(.8);
+        transition: .5s;
+    }
+
+    .product__single__item.slick-slide.slick-current.slick-active.slick-center {
+        transform: scale(1);
+        transition: .5s;
+    }
+
+    .product__single__item.slick-slide.slick-active {
+        transform: scale(.8);
+        transition: .5s;
+    }
 }
 
 @media screen and (max-width: 575px) {
