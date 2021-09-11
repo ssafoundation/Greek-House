@@ -37,6 +37,50 @@ a:hover {
     margin-top: 70px;
 }
 
+.container_wrap {
+    padding: 0px 2%;
+}
+
+.feature_main__wrap.container_wrap {
+    padding: 2% 2%;
+}
+
+.card__main__wrap.container_wrap {
+    padding: 2% 2%;
+}
+
+.partner__main__wrap.container_wrap {
+    padding: 2%;
+}
+
+.lookBook__main__area.container_wrap {
+    padding: 2% 0;
+}
+
+.lookBook__card__main__wrap.container_wrap {
+    padding: 2% 2%;
+}
+
+.design__main__wrap.container_wrap {
+    padding: 2% 0%;
+}
+
+.product__main__wrap.container_wrap {
+    padding: 2% 0;
+}
+
+.testimonial.container_wrap {
+    padding: 2% 0%;
+}
+
+.our__team__main__wrap.container_wrap {
+    padding: 2% 2%;
+}
+
+.call__to__action__main__wrap.container_wrap {
+    padding: 2% 2%;
+}
+
 /* ---------------------------------
 header css
 ------------------- */
@@ -57,7 +101,7 @@ header css
 .header__main__wrap.stickyHeader {
     top: 0px;
     transition: .3s;
-    height: 85px;
+    height: 70px;
     padding-top: 5px;
 }
 
@@ -299,22 +343,25 @@ partner css
 /* ---------------------------------
 lookBook css 
 ------------------- */
-.lookBook__main__area {
+/* .lookBook__main__area {
     padding: 80px 0;
-}
+} */
 
 .lookBook__inner_wrap {
     background-image: url(../img/lookbookBg.png);
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
+    padding-left: 3%;
 }
 
 .lookBook__content {
     width: 40%;
     padding-left: 25px;
     padding-top: 5%;
+    position: relative;
+    height: 100%;
 }
 
 .lookBook__content h3 {
@@ -329,6 +376,12 @@ lookBook css
     line-height: 29px;
 }
 
+.lookBook__btn {
+    position: absolute;
+    width: 50%;
+    bottom: 10%;
+}
+
 .lookBook__btn a {
     display: inline-block;
     padding: 10px 10%;
@@ -339,7 +392,7 @@ lookBook css
     font-weight: 700;
     line-height: 49px;
     border-radius: 50px;
-    margin-top: 25%;
+    /* margin-top: 25%; */
 }
 
 /* ---------------------------------
@@ -531,7 +584,7 @@ testimonial css
 }
 
 .t_s_slider_left {
-    width: 28%;
+    width: 29%;
 }
 
 .t_s_slider_left img {
@@ -583,8 +636,9 @@ We Do css
 }
 
 .we__do__top__content {
-    padding: 0% 15%;
-    margin-bottom: 5%;
+    padding: 2% 10%;
+    width: 70%;
+    margin: auto;
 }
 
 .we__do__top__content h3 {
@@ -599,7 +653,9 @@ We Do css
 }
 
 .we__do__top__items__wrap {
-    padding: 5% 10%;
+    width: 70%;
+    margin: auto;
+    padding: 2% 0;
 }
 
 .we__do__top__single__item h6 {
@@ -621,6 +677,10 @@ We Do css
     border-radius: 25px;
     font-size: 18px;
     margin-top: 5%;
+}
+
+.we__do__bottom__area {
+    padding: 2% 3%;
 }
 
 .we__do__bottom__title {

@@ -5,8 +5,8 @@
       infinite: true,
       slidesToShow: 6,
       slidesToScroll: 1,
-      settings: "unslick",
-      autoplay: true,
+      // settings: "unslick",
+      // autoplay: true,
       autoplaySpeed: 3000,
       speed: 600,
       autoplay: true,
@@ -23,6 +23,7 @@
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
+            centerMode: true,
           },
         },
         {
@@ -30,6 +31,7 @@
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
+            centerMode: true,
           },
         },
       ],
@@ -65,6 +67,7 @@
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
+            centerMode: true,
           },
         },
         {
@@ -72,6 +75,7 @@
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
+            centerMode: true,
           },
         },
       ],
@@ -80,24 +84,16 @@
       loop: true,
       items: 1,
       nav: false,
-      // autoplay: true,
+      autoplay: true,
       autoplayTimeout: 5000,
       dots: true,
     });
-    // $(".mobile_view_lookBook_wrap").owlCarousel({
-    //   loop: true,
-    //   items: 1,
-    //   nav: false,
-    //   autoplay: true,
-    //   autoplayTimeout: 5000,
-    //   dots: true,
-    // });
 
     $(".mobile_view_lookBook_wrap").slick({
       infinite: true,
       slidesToShow: 5,
       slidesToScroll: 1,
-      autoplay: true,
+      // autoplay: true,
       centerMode: true,
       variableWidth: true,
       responsive: [
@@ -106,23 +102,20 @@
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
-            centerPadding: "40px",
           },
         },
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
-            centerPadding: "40px",
           },
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
-            centerPadding: "40px",
           },
         },
       ],
