@@ -101,7 +101,7 @@ header css
 .header__main__wrap.stickyHeader {
     top: 0px;
     transition: .3s;
-    height: 70px;
+    height: 80px;
     padding-top: 5px;
 }
 
