@@ -487,6 +487,10 @@
         display: none;
     }
 
+    .feature_item p br {
+        display: none;
+    }
+
     .product__slider__items {
 
         justify-content: center;
@@ -522,10 +526,10 @@
     }
 
     .testimonial_single_slider:after {
-        height: 100%;
         top: 0;
         width: 100%;
         left: 0;
+        min-height: 550px;
     }
 
     .t_s_slider_right img {
@@ -627,10 +631,11 @@
     }
 
     .our__team__right {
-        padding-right: 5%;
+        padding-right: 0%;
         padding-bottom: 15%;
         position: relative;
         text-align: center;
+        padding-left: 0;
     }
 
     .call__to__action__inner__wrap {
@@ -655,6 +660,13 @@
         width: 80px !important;
     }
 
+    .mobile_view_lookBook_wrap .slick-slide {
+        margin: 0 20px;
+    }
+
+    .mobile_view_lookBook_wrap .slick-list {
+        margin: 0 -20px;
+    }
 
 }
 
@@ -677,6 +689,22 @@
     .product__single__item.slick-slide.slick-active {
         transform: scale(.8);
         transition: .5s;
+    }
+
+    .mobile_view_lookBook_wrap .slick-slide {
+        margin: 0 10px;
+    }
+
+    .mobile_view_lookBook_wrap .slick-list {
+        margin: 0 -10px;
+    }
+
+    .feature__inner__wrap {
+        width: 100%;
+    }
+
+    .we__do__top__single__item h6 br {
+        display: none;
     }
 }
 
@@ -715,10 +743,12 @@
 
     .hero_left_button a {
         display: inline-block;
-        padding: 7px 10px;
         background: #CB7562;
         color: #fff;
         font-size: 14px;
+        width: 140px;
+        height: 50px;
+        line-height: 50px;
     }
 
     .we__do__top__content {
@@ -762,6 +792,21 @@
         width: 80px !important;
     }
 
+    .mobile_view_lookBook_wrap .slick-slide {
+        margin: 0 5px;
+    }
+
+    .mobile_view_lookBook_wrap .slick-list {
+        margin: 0 -5px;
+    }
+
+    .feature__inner__wrap {
+        width: 100%;
+    }
+
+    .we__do__top__single__item h6 br {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -773,6 +818,8 @@
         width: 150px;
         height: 150px;
         margin-right: 0;
+        margin-top: 40px !important;
+        width: 160px !important;
     }
 
     .product__single__item p {
@@ -781,5 +828,56 @@
 
     .partner__main__wrap .slick-slide img {
         width: 80px !important;
+    }
+
+    .product__main__wrap .slick-slide {
+        margin: 0 5px;
+    }
+
+    .product__single__item img {
+        width: 160px;
+        height: 170px;
+        margin: auto;
+    }
+
+    .product__single__item {
+        height: 230px;
+        width: 200px !important;
+    }
+
+    .lookBook__btn a {
+        padding: 0;
+        font-size: 18px;
+        width: 159px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .lookBook__main__area.container_wrap {
+        padding: 2% 0px;
+    }
+
+    .design__slider .slick-slide {
+        margin: 0 0px;
+    }
+
+    .lookBook__card__item {
+        padding: 5px 0;
+    }
+
+    .mobile_view_lookBook_wrap .slick-track {
+        margin: 0 5px;
+    }
+
+    .mobile_view_lookBook_wrap .slick-list {
+        margin: 0 -5px;
+    }
+
+    .feature__inner__wrap {
+        width: 100%;
+    }
+
+    .we__do__top__single__item h6 br {
+        display: none;
     }
 }

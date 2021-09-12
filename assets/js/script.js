@@ -39,7 +39,7 @@
       infinite: true,
       slidesToShow: 4,
       slidesToScroll: 1,
-      autoplay: true,
+      // autoplay: true,
       autoplaySpeed: 3000,
       speed: 600,
       variableWidth: true,
@@ -71,19 +71,18 @@
     });
 
     $(".product__slider__items").slick({
-      infinite: true,
       slidesToShow: 5,
       slidesToScroll: 1,
-      autoplay: true,
+      // autoplay: true,
       autoplaySpeed: 3000,
       speed: 600,
-      variableWidth: true,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
+            variableWidth: true,
           },
         },
         {
@@ -92,6 +91,7 @@
             slidesToShow: 3,
             slidesToScroll: 1,
             centerMode: true,
+            variableWidth: true,
           },
         },
         {
@@ -100,6 +100,7 @@
             slidesToShow: 3,
             slidesToScroll: 1,
             centerMode: true,
+            variableWidth: true,
           },
         },
       ],
@@ -110,14 +111,29 @@
       nav: false,
       autoplay: true,
       autoplayTimeout: 5000,
-      dots: true,
+      dots: false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          margin: 10,
+        },
+        600: {
+          items: 1,
+          margin: 10,
+        },
+        1000: {
+          items: 1,
+          loop: false,
+        },
+      },
     });
 
     $(".mobile_view_lookBook_wrap").slick({
       infinite: true,
       slidesToShow: 5,
-      slidesToScroll: 1,
-      autoplay: true,
+      slidesToScroll: 3,
+      // autoplay: true,
       centerMode: true,
       variableWidth: true,
       responsive: [
@@ -138,7 +154,7 @@
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 3,
             slidesToScroll: 1,
           },
         },

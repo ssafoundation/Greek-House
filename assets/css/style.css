@@ -37,12 +37,13 @@ a:hover {
     margin-top: 70px;
 }
 
-.container_wrap {
+/* .container_wrap {
     padding: 0px 2%;
 }
 
+*/
 .feature_main__wrap.container_wrap {
-    padding: 2% 2%;
+    padding: 104px 0;
 }
 
 .card__main__wrap.container_wrap {
@@ -50,27 +51,30 @@ a:hover {
 }
 
 .partner__main__wrap.container_wrap {
-    padding: 2%;
+    padding: 100px 0;
 }
 
 .lookBook__main__area.container_wrap {
-    padding: 2% 0;
+    padding: 2% 54px;
 }
 
 .lookBook__card__main__wrap.container_wrap {
-    padding: 2% 2%;
+    padding: 100px 0;
 }
 
 .design__main__wrap.container_wrap {
-    padding: 2% 0%;
+    padding: 100px 0;
+    padding-top: 0;
 }
 
 .product__main__wrap.container_wrap {
-    padding: 2% 0;
+    padding: 0 0;
+    padding-bottom: 100px;
 }
 
 .testimonial.container_wrap {
-    padding: 2% 0%;
+    padding: 0 0;
+    padding-bottom: 100px;
 }
 
 .our__team__main__wrap.container_wrap {
@@ -80,6 +84,9 @@ a:hover {
 .call__to__action__main__wrap.container_wrap {
     padding: 3% 2%;
 }
+
+
+
 
 /* ---------------------------------
 header css
@@ -117,6 +124,8 @@ header css
 
 .header__main__wrap .navbar-dark .navbar-nav .nav-link {
     color: #ffffff80;
+    padding-right: 1rem;
+    padding-left: 1rem;
 
 }
 
@@ -145,7 +154,7 @@ header css
 
 .header__profile__area a {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 1rem;
 }
 
 /* ---------------------------------
@@ -154,9 +163,10 @@ hero css
 
 .hero__main__wrap {
     position: relative;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
+    margin-top: 8vh;
 }
 
 .hero__main__wrap::after {
@@ -172,10 +182,7 @@ hero css
     background-size: cover;
 }
 
-/* .hero__inner_wrap {
-    height: 100vh;
-    display: flex;
-} */
+
 
 .hero__right {
     position: relative;
@@ -184,7 +191,7 @@ hero css
 
 img.hero_right_angle_shap {
     position: absolute;
-    left: -25%;
+    left: -30%;
     top: 0%;
     bottom: 0%;
     z-index: 9;
@@ -214,9 +221,15 @@ img.hero_right_angle_shap {
 
 .hero_left_button a {
     display: inline-block;
-    padding: 10px 20px;
     background: #CB7562;
     color: #fff;
+    width: 186px;
+    height: 59px;
+    line-height: 59px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Lato';
+    margin-right: 12px;
 }
 
 .hero_left_button a:nth-child(2) {
@@ -353,12 +366,12 @@ lookBook css
     background-size: cover;
     width: 100%;
     height: 80vh;
-    padding-left: 3%;
+    /* padding-left: 3%; */
 }
 
 .lookBook__content {
     width: 40%;
-    padding-left: 25px;
+    padding-left: 54px;
     padding-top: 5%;
     position: relative;
     height: 100%;
@@ -382,18 +395,21 @@ lookBook css
     bottom: 10%;
 }
 
+
 .lookBook__btn a {
     display: inline-block;
-    padding: 10px 10%;
     background: #CB7562;
     color: #fff;
     font-family: Recoleta;
     font-size: 36px;
     font-weight: 700;
-    line-height: 49px;
     border-radius: 50px;
-    /* margin-top: 25%; */
+    width: 330px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
 }
+
 
 /* ---------------------------------
 lookBook css 
@@ -469,7 +485,7 @@ design css
 
 .design__title {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .design__title h4 {
@@ -629,6 +645,7 @@ We Do css
 .we__do_main__wrap {
     overflow: hidden;
     padding: 80px 0;
+    padding-top: 30px;
 }
 
 .we__do__top__area {
@@ -671,12 +688,14 @@ We Do css
 
 .we__do__top__items_btn a {
     display: inline-block;
-    padding: 10px 25px;
     background: #271827;
     color: #fff;
-    border-radius: 25px;
+    border-radius: 50px;
     font-size: 18px;
     margin-top: 5%;
+    width: 151px;
+    height: 56px;
+    line-height: 56px;
 }
 
 .we__do__bottom__area {
@@ -752,14 +771,17 @@ We Do css
 
 .we__do_left_btn a {
     display: inline-block;
-    padding: 10px 25px;
     background: #859CBA;
     color: #fff;
     font-size: 18px;
     font-weight: 900;
     font-family: 'Lato';
-    border-radius: 25px;
+    border-radius: 50px;
     margin-top: 30px;
+    width: 151px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
 }
 
 .we__do__bottom__right img {
@@ -788,6 +810,7 @@ We Do css
     color: #6B7280;
     padding-right: 6%;
     font-style: italic;
+    font-size: 24px;
 }
 
 /* ---------------------------------
@@ -811,6 +834,7 @@ our team css
     padding: 6%;
     padding-right: 5%;
     position: relative;
+    padding-left: 68px;
 }
 
 .our__team__content h4 {
@@ -826,17 +850,20 @@ our team css
 
 .our__team__btn {
     position: absolute;
-    bottom: 7%;
+    bottom: 57px;
 }
 
 .our__team__btn a {
     display: inline-block;
-    padding: 10px 25px;
     color: #fff;
     background: #848C7E;
-    border-radius: 25px;
+    border-radius: 50px;
     font-weight: 900;
     font-size: 18px;
+    width: 186px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
 }
 
 /* ---------------------------------
