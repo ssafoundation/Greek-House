@@ -39,7 +39,7 @@
       infinite: true,
       slidesToShow: 4,
       slidesToScroll: 1,
-      // autoplay: true,
+      autoplay: true,
       autoplaySpeed: 3000,
       speed: 600,
       variableWidth: true,
@@ -142,7 +142,7 @@
       infinite: true,
       slidesToShow: 5,
       slidesToScroll: 3,
-      // autoplay: true,
+      autoplay: true,
       centerMode: true,
       variableWidth: true,
       responsive: [
