@@ -6,6 +6,14 @@
     .lookBook__btn {
         width: 60%;
     }
+
+    .lookBook__inner_wrap {
+        height: 68vh;
+    }
+
+    .lookBook__content {
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -116,6 +124,14 @@
     .footer__main__area {
         margin-top: 50px;
     }
+
+    .lookBook__inner_wrap {
+        height: 68vh;
+    }
+
+    .lookBook__content {
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -208,10 +224,10 @@
     }
 
     .lookBook__btn a {
-        padding: 10px 5%;
         font-size: 24px;
-        line-height: 40px;
-        margin-top: 10%;
+        line-height: 60px;
+        height: 60px;
+        width: 220px;
     }
 
     .lookBook__card__btn a {
@@ -452,10 +468,11 @@
     }
 
     .lookBook__btn a {
-        padding: 10px 5%;
         font-size: 24px;
-        line-height: 40px;
+        line-height: 60px;
         margin-top: 10%;
+        height: 60px;
+        width: 220px;
     }
 
     .lookBook__card__btn a {
@@ -661,11 +678,17 @@
     }
 
     .mobile_view_lookBook_wrap .slick-slide {
-        margin: 0 20px;
+        margin: 0 0px;
     }
 
     .mobile_view_lookBook_wrap .slick-list {
-        margin: 0 -20px;
+        margin: 0 0px;
+    }
+
+    .lookBook__card__item {
+
+        padding: 0px;
+
     }
 
 }
@@ -692,11 +715,11 @@
     }
 
     .mobile_view_lookBook_wrap .slick-slide {
-        margin: 0 10px;
+        margin: 0 0px;
     }
 
     .mobile_view_lookBook_wrap .slick-list {
-        margin: 0 -10px;
+        margin: 0 0px;
     }
 
     .feature__inner__wrap {
@@ -705,6 +728,10 @@
 
     .we__do__top__single__item h6 br {
         display: none;
+    }
+
+    .product__single__item.slick-slide.slick-current.slick-center {
+        transform: scale(1);
     }
 }
 
@@ -793,11 +820,11 @@
     }
 
     .mobile_view_lookBook_wrap .slick-slide {
-        margin: 0 5px;
+        margin: 0 px;
     }
 
     .mobile_view_lookBook_wrap .slick-list {
-        margin: 0 -5px;
+        margin: 0 0px;
     }
 
     .feature__inner__wrap {
@@ -832,6 +859,8 @@
 
     .product__main__wrap .slick-slide {
         margin: 0 5px;
+        transform: scale(.8);
+        transition: .5s;
     }
 
     .product__single__item img {
@@ -863,14 +892,15 @@
 
     .lookBook__card__item {
         padding: 5px 0;
+        width: 220px;
     }
 
     .mobile_view_lookBook_wrap .slick-track {
-        margin: 0 5px;
+        margin: 0 0px;
     }
 
     .mobile_view_lookBook_wrap .slick-list {
-        margin: 0 -5px;
+        margin: 0 0px;
     }
 
     .feature__inner__wrap {

@@ -73,10 +73,19 @@
     $(".product__slider__items").slick({
       slidesToShow: 5,
       slidesToScroll: 1,
-      // autoplay: true,
+      infinite: false,
+      autoplay: true,
       autoplaySpeed: 3000,
       speed: 600,
       responsive: [
+        {
+          breakpoint: 1600,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            variableWidth: true,
+          },
+        },
         {
           breakpoint: 1024,
           settings: {
@@ -149,6 +158,7 @@
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
+            centerMode: true,
           },
         },
         {
@@ -156,6 +166,7 @@
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
+            centerMode: true,
           },
         },
       ],
