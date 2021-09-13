@@ -45,7 +45,18 @@
     }
 
     .hero__main__wrap {
-        margin-top: 7vh;
+        margin-top: 4vh;
+    }
+
+    .hero__left {
+        position: relative;
+        z-index: 99;
+        padding-left: 50px;
+    }
+
+    .header__main__wrap .navbar-dark .navbar-nav .nav-link {
+        color: #ffffff80;
+        margin-right: 1rem;
     }
 }
 
@@ -91,6 +102,29 @@
 
     .lookBook__content {
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .hero__main__wrap {
+        height: 44vh;
+        margin-top: 4vh;
+        overflow: hidden;
+    }
+
+    .hero__main__wrap::after {
+        width: 52%;
+        height: 98%;
+    }
+
+    img.hero_right_angle_shap {
+        position: absolute;
+        left: -83%;
+        top: 0%;
+        bottom: 0%;
+        z-index: 9;
+        height: 100%;
+        transform: rotate(-5deg);
     }
 }
 
