@@ -949,4 +949,8 @@
     .we__do__top__single__item h6 br {
         display: none;
     }
+    .subscribe__area button {
+        font-size: 14px;
+        width: 29%;
+    }
 }
