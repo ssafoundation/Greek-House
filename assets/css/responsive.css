@@ -66,7 +66,7 @@
     }
 
     .lookBook__btn a {
-        padding: 10px 5%;
+        padding: 0;
         font-size: 28px;
         line-height: 40px;
         margin-top: 25%;
@@ -779,6 +779,10 @@
         min-height: 300px;
     }
 
+    .lookBook__main__area.container_wrap {
+        padding: 2% 10px;
+    }
+
     .lookBook__content h3 {
         font-size: 40px;
         color: #fff;
@@ -786,9 +790,11 @@
     }
 
     .lookBook__btn a {
-        padding: 7px 5%;
+        padding: 0;
         font-size: 18px;
-        line-height: 28px;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
         margin-top: 10%;
     }
 
