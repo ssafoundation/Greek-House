@@ -262,6 +262,7 @@ img.hero_right_angle_shap {
 .hero__left h2 {
     font-size: 64px;
     line-height: 88px;
+    text-transform: lowercase;
 }
 
 .hero__left p {

@@ -1,12 +1,12 @@
 @media only screen and (min-width: 1921px) and (max-width: 3440px) {
     .product__single__item {
-        width: 440px !important;
-        height: 470px;
+        width: 580px !important;
+        height: 610px;
     }
 
     .product__single__item img {
-        width: 400px;
-        height: 385px;
+        width: 536px;
+        height: 536px;
         margin: auto;
     }
 
@@ -45,7 +45,6 @@
     }
 
     .hero__main__wrap {
-
         margin-top: 7vh;
     }
 }
