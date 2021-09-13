@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 383.58 340.96"
+   version="1.1"
+   sodipodi:docname="store_cart.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Cart Icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="0.69216332"
+     inkscape:cx="11.91915"
+     inkscape:cy="170.48"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#1897d8;}</style>
+  </defs>
+  <title
+     id="title6">Cart Icon</title>
+  <path
+     class="cls-1"
+     d="M71,80.52a12.79,12.79,0,1,0,0,25.57h42.48c21.17,52.41,42,104.92,63,157.43L157.17,310A12.79,12.79,0,0,0,169,327.72h213.1a12.79,12.79,0,1,0,0-25.58H188.2l11.06-26.37L404.5,259.39A13.15,13.15,0,0,0,416,249.53l25.58-110.81c1.67-7.46-4.88-15.61-12.52-15.58H147.85L134,88.51a13.09,13.09,0,0,0-11.85-8Zm87.1,68.19h79.12v38.36h-63.8Zm104.69,0h51.14v38.36H262.79Zm76.71,0h73.39l-8.79,38.36H339.5ZM183.67,212.64h53.55v34.5l-38.5,3.06Zm79.12,0h51.14V241l-51.14,4.13Zm76.71,0h58.61l-5.06,22.11L339.5,239ZM211.64,336.24a42.62,42.62,0,1,0,42.62,42.62A42.82,42.82,0,0,0,211.64,336.24Zm127.86,0a42.62,42.62,0,1,0,42.62,42.62A42.82,42.82,0,0,0,339.5,336.24ZM211.64,361.81a17.05,17.05,0,1,1-17,17.05A16.86,16.86,0,0,1,211.64,361.81Zm127.86,0a17.05,17.05,0,1,1-17,17.05A16.86,16.86,0,0,1,339.5,361.81Z"
+     transform="translate(-58.21 -80.52)"
+     id="path8"
+     style="fill:#ca7361;fill-opacity:1" />
+</svg>

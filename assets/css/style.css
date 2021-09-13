@@ -98,18 +98,16 @@ header css
     position: fixed;
     width: 100%;
     background-color: #271827 !important;
-    top: -10px;
+    top: 0px;
     transition: .3s;
     height: 80px;
-
-    padding-top: 7px;
 }
 
 .header__main__wrap.stickyHeader {
     top: 0px;
     transition: .3s;
     height: 80px;
-    padding-top: 5px;
+
 }
 
 .header__main__wrap .bg-dark {
@@ -155,6 +153,52 @@ header css
 .header__profile__area a {
     display: inline-block;
     margin-left: 1rem;
+}
+
+.btn.navbar-click-hare-btn {
+    background-color: #ca7361;
+    color: #fff;
+    border: none;
+}
+
+.navbar-cart .navbar-cart-counter {
+    border: 1px solid #6ac800;
+    background-color: #6ac800;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 700;
+    width: 10px;
+    height: 10px;
+    line-height: 7px;
+    padding: 1px 2px;
+    position: relative;
+    top: 2px;
+    left: 7px;
+}
+
+.navbar-cart img {
+    width: 25px;
+}
+
+.sr-only {
+    white-space: nowrap;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+a.btn.navbar-click-hare-btn:hover {
+    background: #fff;
+    color: #ca7361;
 }
 
 /* ---------------------------------
