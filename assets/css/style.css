@@ -131,6 +131,10 @@ header css
     padding: 0;
 }
 
+li.nav-item.active a {
+    color: #ca7361 !important;
+}
+
 .navbar-dark .navbar-brand img {
     width: 180px;
 }

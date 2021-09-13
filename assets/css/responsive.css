@@ -511,7 +511,8 @@
     }
 
     .feature_item p {
-        font-size: 13px;
+        font-size: 14px;
+        font-weight: 600;
     }
 
     .feature_item p br {
@@ -609,8 +610,10 @@
     }
 
     .we__do__top__single__item h6 {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 20px;
+        font-weight: 600;
+
     }
 
     .we__do__bottom__area .row {
