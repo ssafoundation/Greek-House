@@ -695,7 +695,7 @@
 
 
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
     .header__main__wrap {
         padding: 20px 0;
     }
@@ -897,7 +897,7 @@
     }
 
     .we__do__bottom__right {
-        display: none;
+        display: block;
     }
 
     .testimonial_single_slider {
@@ -978,10 +978,6 @@
         line-height: 20px;
         font-weight: 600;
 
-    }
-
-    .we__do__bottom__area .row {
-        flex-direction: column-reverse;
     }
 
     .we__do__bottom__left {
@@ -1072,6 +1068,12 @@
 
     }
 
+}
+
+@media screen and (max-width: 767px) {
+    .we__do__bottom__right {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
