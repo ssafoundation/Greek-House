@@ -287,6 +287,16 @@
         padding: 20px 0;
     }
 
+    .hero__main__wrap {
+        height: 79vh;
+        margin-top: 0vh;
+        overflow: hidden;
+    }
+
+    .hero__main__wrap::after {
+        background-image: url(../img/hero-right.png);
+    }
+
     .header__main__wrap.stickyHeader {
         height: 80px;
         padding-top: 15px;
@@ -496,6 +506,10 @@
 @media screen and (max-width: 767px) {
     .header__main__wrap {
         padding: 20px 0;
+    }
+
+    .hero__main__wrap::after {
+        background-image: url(../img/hero-right.png);
     }
 
     .header__main__wrap.stickyHeader {
