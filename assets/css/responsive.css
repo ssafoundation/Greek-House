@@ -670,12 +670,6 @@
 
 
 
-@media screen and (max-width: 767px) {
-    .we__do__bottom__right {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 770px) {
     .header__main__wrap {
         padding: 20px 0;
@@ -876,7 +870,9 @@
         margin-bottom: 25px;
     }
 
-
+    .we__do__bottom__right {
+     display: none;
+ }
 
     .testimonial_single_slider {
         display: block;
