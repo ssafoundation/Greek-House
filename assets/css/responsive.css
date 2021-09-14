@@ -1352,6 +1352,23 @@
         font-size: 14px;
         width: 29%;
     }
+
+    .hero__main__wrap {
+        height: 100vh;
+        margin-top: 82px;
+        overflow: hidden;
+    }
+
+    .hero__main__wrap::after {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero__main__wrap::before {
+        width: 100%;
+        height: 100%;
+
+    }
 }
 
 @media screen and (max-width: 361px) {
