@@ -156,7 +156,7 @@
 @media only screen and (max-width: 2561px) {
     .hero__main__wrap {
         position: relative;
-        height: 58vh;
+        height: 85vh;
         display: flex;
         align-items: center;
         margin-top: 0vh;
@@ -182,7 +182,7 @@
 @media only screen and (max-width: 2200px) {
     .hero__main__wrap {
         position: relative;
-        height: 58vh;
+        height: 85vh;
         display: flex;
         align-items: center;
         margin-top: 0vh;
@@ -871,8 +871,8 @@
     }
 
     .we__do__bottom__right {
-     display: none;
- }
+        display: none;
+    }
 
     .testimonial_single_slider {
         display: block;
