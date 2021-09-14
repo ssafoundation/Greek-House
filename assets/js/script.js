@@ -74,7 +74,7 @@
       slidesToShow: 4,
       slidesToScroll: 1,
       infinite: false,
-      // autoplay: true,
+      autoplay: true,
       autoplaySpeed: 3000,
       speed: 600,
       responsive: [

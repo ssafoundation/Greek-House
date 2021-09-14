@@ -153,18 +153,20 @@
     }
 
     .hero__main__wrap::after {
-        width: 46%;
-        height: 100%;
+        width: 47%;
+        height: 1100px;
     }
+
 }
 
 @media only screen and (max-width: 2561px) {
+
     .hero__main__wrap {
         position: relative;
-        height: 100vh;
+        height: 1100px;
         display: flex;
         align-items: center;
-        margin-top: 0vh;
+        margin-top: 68px;
     }
 
     .product__single__item {
@@ -252,9 +254,11 @@
 }
 
 @media only screen and (max-width: 1440px) {
+
+
     .hero__main__wrap {
-        height: 100vh;
-        margin-top: 0vh;
+        height: 700px;
+        margin-top: 68px;
         overflow: hidden;
     }
 
@@ -431,15 +435,26 @@
 }
 
 @media only screen and (max-width: 1030px) {
+
     .hero__main__wrap {
-        height: 58vh;
-        margin-top: 0vh;
+        height: 630px;
+        margin-top: 69px;
         overflow: hidden;
     }
 
     .hero__main__wrap::after {
-        width: 60%;
-        height: 88%;
+        width: 52%;
+        height: 490px;
+    }
+
+    .hero__left {
+        position: relative;
+        z-index: 99;
+        top: -50px;
+    }
+
+    .header__main__wrap .navbar-dark .navbar-nav .nav-link {
+        padding-left: .8rem;
     }
 
     .lookBook__inner_wrap {
@@ -708,12 +723,13 @@
 
     .hero__main__wrap {
         height: 68vh;
-        margin-top: 0vh;
+        margin-top: 68px;
         overflow: hidden;
     }
 
     .hero__main__wrap::after {
         background-image: url(../img/hero-right.png);
+        height: 665px;
     }
 
     .header__main__wrap.stickyHeader {
@@ -732,7 +748,7 @@
 
     .hero__main__wrap::before {
         width: 100%;
-        height: 88%;
+        height: 665px;
         content: "";
         position: absolute;
         left: 0;
@@ -1098,6 +1114,11 @@
     .product__single__item.slick-slide.slick-current.slick-center {
         transform: scale(1);
     }
+
+    .feature_main__wrap.container_wrap {
+        padding: 104px 0;
+
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -1121,6 +1142,28 @@
         height: 250px;
         margin: auto;
         margin-top: 0px;
+    }
+
+    .hero__main__wrap::before {
+        width: 100%;
+        height: 440px;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #27182799;
+        z-index: 9;
+    }
+
+    .hero__main__wrap::after {
+        width: 100%;
+        height: 440px;
+    }
+
+    .hero__main__wrap {
+        height: 68vh;
+        margin-top: 82px;
+        overflow: hidden;
     }
 
     .product__main__wrap .slick-slide {
@@ -1305,5 +1348,56 @@
     .subscribe__area button {
         font-size: 14px;
         width: 29%;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .hero_left_button a {
+        width: 130px;
+    }
+
+    .hero__main__wrap {
+        height: 82vh;
+        margin-top: 84px;
+        overflow: hidden;
+    }
+
+    .feature_item {
+        margin-bottom: 0;
+        padding: 0px;
+        border-radius: 5px;
+    }
+
+    .feature_main__wrap.container_wrap {
+        padding-bottom: 70px;
+    }
+
+    .hero__left {
+        text-align: center;
+        padding: 11% 0;
+        position: relative;
+        top: -10px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .hero_left_button a {
+        width: 130px;
+    }
+
+    .hero__main__wrap {
+        height: 88vh;
+        margin-top: 84px;
+        overflow: hidden;
+    }
+
+    .feature_item {
+        margin-bottom: 0;
+        padding: 0px;
+        border-radius: 5px;
+    }
+
+    .feature_main__wrap.container_wrap {
+        padding-bottom: 70px;
     }
 }
