@@ -33,7 +33,7 @@
 
     .hero__main__wrap::after {
         content: "";
-        background-image: url(../img/hero-right-2.png);
+        background-image: url(../img/hero-right-2.jpg);
         position: absolute;
         width: 60%;
         height: 100%;
