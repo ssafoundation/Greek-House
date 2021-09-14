@@ -37,12 +37,11 @@ a:hover {
     margin-top: 70px;
 }
 
-/* .container_wrap {
-    padding: 0px 2%;
+main {
+    overflow: hidden;
 }
 
-*/
-.feature_main__wrap.container_wrap {
+*/ .feature_main__wrap.container_wrap {
     padding: 104px 0;
 }
 
