@@ -1070,11 +1070,12 @@
 
 }
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .we__do__bottom__right {
         display: none;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .design__slider__item.slick-slide.slick-current.slick-active.slick-center {
