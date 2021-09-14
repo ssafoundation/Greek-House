@@ -192,7 +192,7 @@
 @media only screen and (max-width: 1919px) {
     .hero__main__wrap {
         position: relative;
-        height: 80vh;
+        height: 85vh;
         display: flex;
         align-items: center;
         margin-top: 0vh;
@@ -224,7 +224,7 @@
 @media only screen and (max-width: 1700px) {
     .hero__main__wrap {
         position: relative;
-        height: 58vh;
+        height: 85vh;
         display: flex;
         align-items: center;
         margin-top: 0vh;
@@ -234,7 +234,7 @@
 @media only screen and (max-width: 1441px) {
     .hero__main__wrap {
         position: relative;
-        height: 58vh;
+        height: 85vh;
         display: flex;
         align-items: center;
         margin-top: 0vh;
@@ -243,8 +243,8 @@
 
 @media only screen and (max-width: 1440px) {
     .hero__main__wrap {
-        height: 44vh;
-        margin-top: 4vh;
+        height: 85vh;
+        margin-top: 0vh;
         overflow: hidden;
     }
 
