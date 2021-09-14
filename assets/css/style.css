@@ -248,6 +248,11 @@ hero css
 }
 
 
+.hero__left {
+    position: relative;
+    z-index: 99;
+    padding-left: 50px;
+}
 
 .hero__right {
     position: relative;
