@@ -33,9 +33,9 @@
 
     .hero__main__wrap::after {
         content: "";
-        background-image: url(../img/hero-right.png);
+        background-image: url(../img/hero-right-2.png);
         position: absolute;
-        width: 62%;
+        width: 60%;
         height: 100%;
         right: 0;
         top: 0;
@@ -44,9 +44,7 @@
         background-size: cover;
     }
 
-    .hero__main__wrap {
-        margin-top: 4vh;
-    }
+
 
     .hero__left {
         position: relative;
@@ -105,6 +103,17 @@
     }
 }
 
+@media only screen and (max-width: 1920px) {
+    /* img.hero_right_angle_shap {
+        position: absolute;
+        left: -28%;
+        top: 0%;
+        bottom: 0%;
+        z-index: 9;
+        height: 100%;
+    } */
+}
+
 @media only screen and (max-width: 1440px) {
     .hero__main__wrap {
         height: 44vh;
@@ -130,8 +139,35 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .hero__left h2 {
-        font-size: 50px;
-        line-height: 70px;
+        font-size: 44px;
+        line-height: 59px;
+    }
+
+    .hero__main__wrap {
+        height: 80vh;
+        margin-top: 0vh;
+        overflow: hidden;
+    }
+
+    .hero_left_button {
+        margin-top: 3%;
+    }
+
+    .hero_left_button a {
+        width: 170px;
+        height: 57px;
+        line-height: 57px;
+        font-size: 18px;
+    }
+
+    .feature_main__wrap.container_wrap {
+        padding: 104px 0;
+        padding-top: 0px;
+    }
+
+    .hero__main__wrap::after {
+        width: 60%;
+        height: 93%;
     }
 
     img.hero_right_angle_shap {
@@ -154,8 +190,8 @@
     .lookBook__btn a {
         padding: 0;
         font-size: 28px;
-        line-height: 40px;
-        margin-top: 25%;
+        line-height: 80px;
+        margin-top: 0;
     }
 
     .design__slider .slick-list {

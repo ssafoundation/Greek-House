@@ -231,15 +231,15 @@ hero css
     height: 90vh;
     display: flex;
     align-items: center;
-    margin-top: 8vh;
+    margin-top: 0vh;
 }
 
 .hero__main__wrap::after {
     content: "";
-    background-image: url(../img/hero-right.png);
+    background-image: url(../img/hero-right-2.png);
     position: absolute;
-    width: 50%;
-    height: 100%;
+    width: 63%;
+    height: 90%;
     right: 0;
     top: 0;
     background-position: center;
@@ -271,7 +271,6 @@ img.hero_right_angle_shap {
 .hero__left h2 {
     font-size: 64px;
     line-height: 88px;
-    text-transform: lowercase;
 }
 
 .hero__left p {
