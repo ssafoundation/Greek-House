@@ -374,7 +374,7 @@
 
 
     .hero__main__wrap {
-        height: 700px;
+        height: 590px;
         margin-top: 68px;
         overflow: hidden;
     }
@@ -413,6 +413,7 @@
 
     .product__single__item.product__last__item {
         margin-top: 40px !important;
+        height: 220px !important;
     }
 
     .product__main__wrap .slick-slide {
@@ -516,7 +517,7 @@
 
     .product__single__item.product__last__item {
         width: 180px;
-        height: 220px;
+        height: 220px !important;
     }
 
     .testimonial_single_slider:after {
