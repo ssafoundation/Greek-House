@@ -69,6 +69,40 @@
         },
       ],
     });
+    $(".design_slider__bottom").slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3500,
+      speed: 400,
+      variableWidth: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+          },
+        },
+      ],
+    });
 
     $(".product__slider__items").slick({
       slidesToShow: 4,
@@ -90,7 +124,7 @@
         {
           breakpoint: 2048,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             variableWidth: true,
             infinite: true,
@@ -99,7 +133,7 @@
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 5,
             slidesToScroll: 1,
             variableWidth: true,
             infinite: true,
@@ -108,7 +142,7 @@
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             centerMode: true,
             variableWidth: true,

@@ -50,7 +50,7 @@ main {
 }
 
 .partner__main__wrap.container_wrap {
-    padding: 100px 0;
+    padding: 120px 0;
 }
 
 .lookBook__main__area.container_wrap {
@@ -568,7 +568,13 @@ design css
     margin: 0 -30px;
 }
 
+.design_slider__bottom .slick-slide {
+    margin: 0 10px;
+}
 
+.design_slider__bottom .slick-list {
+    margin: 0 -10px;
+}
 
 /* ---------------------------------
 design css 
