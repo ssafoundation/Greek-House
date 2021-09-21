@@ -154,7 +154,7 @@
     }
 
     .hero__main__wrap::after {
-        width: 47%;
+        width: 53%;
         height: 1100px;
     }
 
@@ -419,6 +419,15 @@
     .product__main__wrap .slick-slide {
         margin: 0 10px;
     }
+
+    .partner__main__wrap.container_wrap {
+        padding: 50px 0;
+    }
+
+    .feature_main__wrap {
+        text-align: center;
+        padding: 50px 0;
+    }
 }
 
 
@@ -430,7 +439,7 @@
     }
 
     .hero__main__wrap {
-        height: 500px;
+        height: 600px;
         margin-top: 0px;
         overflow: hidden;
     }
@@ -639,8 +648,8 @@
     }
 
     .hero__main__wrap {
-        height: 100vh;
-        margin-top: 0vh !important;
+        height: 70vh;
+        margin-top: 4vh !important;
         overflow: hidden;
     }
 
@@ -859,6 +868,10 @@
     .design_slider__bottom .slick-list {
         margin: 0 -10px;
     }
+
+    .mobile__show {
+        display: block !important;
+    }
 }
 
 
@@ -866,6 +879,10 @@
 @media screen and (max-width: 768px) {
     .header__main__wrap {
         padding: 20px 0;
+    }
+
+    .design__slider__bottom__wrap {
+        display: none;
     }
 
     .product__single__item img {
@@ -890,8 +907,7 @@
     }
 
     .hero__main__wrap {
-        height: 100vh;
-        margin-top: 68px;
+        height: 66vh;
         overflow: hidden;
     }
 
@@ -1239,9 +1255,7 @@
     }
 
     .lookBook__card__item {
-
         padding: 0px;
-
     }
 
 }
@@ -1295,8 +1309,7 @@
     }
 
     .feature_main__wrap.container_wrap {
-        padding: 104px 0;
-
+        padding: 50px 0;
     }
 }
 
@@ -1317,8 +1330,8 @@
     }
 
     .product__single__item img {
-        width: 230px;
-        height: 250px;
+        width: 230px !important;
+        height: 250px !important;
         margin: auto;
         margin-top: 0px;
     }
@@ -1340,9 +1353,9 @@
     }
 
     .hero__main__wrap {
-        height: 100vh;
-        margin-top: 75px;
+        height: 75vh;
         overflow: hidden;
+        margin-top: 10vh !important;
     }
 
     .product__main__wrap .slick-slide {
@@ -1477,8 +1490,8 @@
     }
 
     .product__single__item img {
-        width: 160px;
-        height: 170px;
+        width: 160px !important;
+        height: 170px !important;
         margin: auto;
     }
 
@@ -1530,8 +1543,8 @@
     }
 
     .hero__main__wrap {
-        height: 100vh;
-        margin-top: 74px;
+        height: 59vh;
+        margin-top: 8vh !important;
         overflow: hidden;
     }
 
@@ -1578,7 +1591,7 @@
     }
 
     .hero__main__wrap {
-        height: 100vh;
+        height: 89vh;
         margin-top: 50px !important;
         overflow: hidden;
     }

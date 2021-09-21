@@ -108,7 +108,7 @@
       slidesToShow: 4,
       slidesToScroll: 1,
       infinite: false,
-      autoplay: true,
+      // autoplay: true,
       autoplaySpeed: 3000,
       speed: 600,
       responsive: [
@@ -118,7 +118,6 @@
             slidesToShow: 4,
             slidesToScroll: 1,
             variableWidth: true,
-            infinite: true,
           },
         },
         {
@@ -127,7 +126,6 @@
             slidesToShow: 4,
             slidesToScroll: 1,
             variableWidth: true,
-            infinite: true,
           },
         },
         {
@@ -136,7 +134,6 @@
             slidesToShow: 5,
             slidesToScroll: 1,
             variableWidth: true,
-            infinite: true,
           },
         },
         {

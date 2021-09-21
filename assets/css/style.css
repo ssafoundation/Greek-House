@@ -233,7 +233,7 @@ hero css
 
 .hero__main__wrap::after {
     content: "";
-    background-image: url(../img/hero-right-2.jpg);
+    background-image: url(../img/hero-right-222.jpg);
     position: absolute;
     width: 63%;
     height: 90%;
@@ -575,7 +575,9 @@ design css
 .design_slider__bottom .slick-list {
     margin: 0 -10px;
 }
-
+.mobile__show {
+    display: none!important;
+}
 /* ---------------------------------
 design css 
 ------------------- */
