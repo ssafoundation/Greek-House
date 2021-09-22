@@ -881,6 +881,15 @@
         padding: 20px 0;
     }
 
+    .card_button {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .card_button a {
+        font-size: 20px;
+    }
+
     .design__slider__bottom__wrap {
         display: none;
     }
