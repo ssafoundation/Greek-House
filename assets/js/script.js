@@ -109,17 +109,27 @@
     slider.slick({
       slidesToShow: 4,
       slidesToScroll: 1,
-      infinite: true,
-      autoplay: true,
+      infinite: false,
+      // autoplay: true,
       autoplaySpeed: 3000,
       speed: 600,
       responsive: [
+        {
+          breakpoint: 2560,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            variableWidth: true,
+            infinite: false,
+          },
+        },
         {
           breakpoint: 1600,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
             variableWidth: true,
+            infinite: false,
           },
         },
         {
@@ -137,6 +147,7 @@
             slidesToScroll: 1,
             centerMode: true,
             variableWidth: true,
+            infinite: true,
           },
         },
         {
@@ -146,6 +157,7 @@
             slidesToScroll: 1,
             centerMode: true,
             variableWidth: true,
+            infinite: true,
           },
         },
       ],
@@ -159,7 +171,7 @@
 
     slider.on("afterChange", function (event, slick, currentSlide, nextSlide) {
       console.log(currentSlide);
-      if (currentSlide === 2) {
+      if (currentSlide === 3) {
         console.log("last slide");
         jumpBack();
       }

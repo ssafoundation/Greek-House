@@ -250,13 +250,13 @@
 
 
     .product__single__item {
-        width: 370px !important;
-        height: 430px !important;
+        width: 410px !important;
+        height: 460px !important;
     }
 
     .product__single__item img {
-        width: 330px !important;
-        height: 340px !important;
+        width: 360px !important;
+        height: 370px !important;
         margin: auto;
         margin-top: 2px;
     }
@@ -413,7 +413,7 @@
 
     .product__single__item.product__last__item {
         margin-top: 40px !important;
-        height: 220px !important;
+        height: 320px !important;
     }
 
     .product__main__wrap .slick-slide {
@@ -631,12 +631,12 @@
 
     .product__single__item {
         width: 250px !important;
-        height: 300px;
+        height: 300px !important;
     }
 
     .product__single__item img {
-        width: 190px;
-        height: 206px;
+        width: 190px !important;
+        height: 206px !important;
         margin: auto;
         margin-top: 5px;
     }
