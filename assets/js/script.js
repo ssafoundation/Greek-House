@@ -113,6 +113,7 @@
       autoplay: true,
       autoplaySpeed: 3000,
       speed: 600,
+      cssEase: "linear",
       responsive: [
         {
           breakpoint: 2560,
