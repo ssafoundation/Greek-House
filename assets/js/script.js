@@ -159,7 +159,7 @@
 
     slider.on("afterChange", function (event, slick, currentSlide, nextSlide) {
       console.log(currentSlide);
-      if (currentSlide === 4) {
+      if (currentSlide === 3) {
         console.log("last slide");
         jumpBack();
       }
