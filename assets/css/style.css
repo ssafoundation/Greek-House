@@ -575,9 +575,11 @@ design css
 .design_slider__bottom .slick-list {
     margin: 0 -10px;
 }
+
 .mobile__show {
-    display: none!important;
+    display: none !important;
 }
+
 /* ---------------------------------
 design css 
 ------------------- */

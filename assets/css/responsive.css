@@ -872,6 +872,15 @@
     .mobile__show {
         display: block !important;
     }
+
+    .card__inner__wrap>.row>.col-4 {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .card_button a {
+        font-size: 20px;
+    }
 }
 
 
@@ -883,11 +892,22 @@
 
     .card_button {
         height: 60px;
-        line-height: 60px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
 
     .card_button a {
-        font-size: 20px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .card__main__wrap {
+
+        width: 100%;
+        margin: 0 auto;
     }
 
     .design__slider__bottom__wrap {
@@ -977,10 +997,10 @@
         display: none;
     }
 
-
     .hero__inner_wrap {
-        height: unset;
-        display: unset;
+        height: auto;
+        display: block;
+        padding-top: 30%;
     }
 
     .hero__left p {
@@ -1017,9 +1037,9 @@
         font-size: 16px;
     }
 
-    .card__single__item {
+    /* .card__single__item {
         margin-bottom: 30px;
-    }
+    } */
 
     .lookBook__content {
         width: 100%;
@@ -1267,6 +1287,11 @@
         padding: 0px;
     }
 
+    .card__inner__wrap>.row>.col-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -1328,6 +1353,11 @@
         line-height: 45px;
     }
 
+    .card_button a {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
     .hero__left p {
         font-size: 16px;
         line-height: 24px;
@@ -1364,7 +1394,7 @@
     .hero__main__wrap {
         height: 75vh;
         overflow: hidden;
-        margin-top: 10vh !important;
+        margin-top: 8vh !important;
     }
 
     .product__main__wrap .slick-slide {
@@ -1552,7 +1582,7 @@
     }
 
     .hero__main__wrap {
-        height: 59vh;
+        height: 55vh;
         margin-top: 8vh !important;
         overflow: hidden;
     }
